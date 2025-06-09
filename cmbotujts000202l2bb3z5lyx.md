@@ -675,107 +675,107 @@ Từ đó ta có thể chuyển quan hệ thành liên kết
         
         8. ### **Kịch bản chuẩn v2**
             
-        9. Nhà cung cấp nhập một số lượng truyện(cũ hoặc mới) cho cửa hàng
-            
-        10. Nhân viên kho bắt đầu quá trình nhập truyện từ nhà cung cấp bằng việc đăng nhập trên giao diện LoginView
-            
-        11. Lớp LoginView gọi lớp User để xử lý
-            
-        12. Lớp User thực hiện hàm checkLogin()
-            
-        13. Lớp User trả kết quả về cho lớp LoginView
-            
-        14. Lớp LoginView gọi lớp WarehouseStaffView
-            
-        15. Lớp WarehouseStaffView hiển thị cho nhân viên kho
-            
-        16. Nhân viên kho chọn chức năng nhập truyện từ lớp WarehouseStaffView
-            
-        17. Lớp WarehouseStaffView gọi lớp SearchProviderView
-            
-        18. Lớp SearchProviderView hiển thị cho nhân viên kho
-            
-        19. Nhân viên kho hỏi nhà cung cấp thông tin của nhà cung cấp
-            
-        20. Nhà cung cấp cung cấp thông tin cho nhân viên kho
-            
-        21. Nhân viên kho nhập tên nhà cung cấp và nhấn nút tìm kiếm trên giao diện SearchProviderView
-            
-        22. Lớp SearchProviderView gọi lớp Provider
-            
-        23. Lớp Provider thực hiện hàm searchProviderByName()
-            
-        24. Lớp Provider trả kết quả về cho lớp SearchProviderView
-            
-        25. Lớp SearchProviderView hiển thị kết quả cho nhân viên kho
-            
-        26. Nhân viên kho chọn đúng dòng của thông tin nhà cung cấp
-            
-        27. Lớp SearchProviderView gọi lớp SearchBookTitleView
-            
-        28. Lớp SearchBookTitleView hiển thị cho nhân viên kho
-            
-        29. Nhân viên kho hỏi nhà cung cấp thông tin về đầu truyện cần nhập
-            
-        30. Nhà cung cấp trả lời nhân viên kho về thông tin đầu truyện cần nhập
-            
-        31. Nhân viên kho nhập tên đầu truyện và nhấn nút tìm kiếm
-            
-        32. Lớp SearchBookTitleView gọi lớp BookTitle
-            
-        33. Lớp BookTitle thực hiện hàm searchBookTitleByName()
-            
-        34. Lớp BookTitle trả kết quả về cho lớp SearchBookTitleView
-            
-        35. Lớp SearchBookTitleView hiển thị kết quả cho nhân viên kho
-            
-        36. Nhân viên kho chọn dòng có thông tin đầu truyện đúng
-            
-        37. Lớp SearchBookTitleView gọi lớp EnterQuantityView
-            
-        38. Lớp EnterQuantityView hiển thị cho nhân viên kho
-            
-        39. Nhân viên kho hỏi nhà cung cấp số lượng truyện của đầu truyện
-            
-        40. Nhà cung cấp trả lời nhân viên kho số lượng truyện của đầu truyện
-            
-        41. Nhân viên kho nhập số lượng truyện và nhấn vào nút xác nhận
-            
-        42. Lớp EnterQuantityView gọi lớp ImportedBookTitleListView
-            
-        43. Lớp ImportedBookTitleListView hiển thị cho nhân viên kho
-            
-        44. Nhân viên kho đọc lại thông tin các đầu truyện được nhập và yêu cầu nhà cung cấp đối chiếu xác nhận
-            
-        45. Nhà cung cấp xác nhận đúng thông tin
-            
-        46. Nhân viên kho nhấn nút xác nhận
-            
-        47. Lớp ImportedBookTitleListView gọi lớp ConfirmView
-            
-        48. Lớp ConfirmView hiển thị cho nhân viên kho
-            
-        49. Nhân viên kho hỏi nhà cung cấp số tiền giảm giá trong lần nhập này
-            
-        50. Nhà cung cấp trả lời nhân viên kho số tiền giảm giá trong lần nhập này
-            
-        51. Nhân viên kho nhập số tiền giảm giá, chọn phương thức thanh toán và nhấn vào nút In
-            
-        52. Lớp ConfirmView gọi cho lớp ImportBill
-            
-        53. Lớp ImportBill thực hiện hàm confirmImportBookTitle()
-            
-        54. Lớp ImportBill trả kết quả về cho lớp ConfirmView
-            
-        55. Lớp ConfirmView hiển thị thông báo nhập truyện thành công cho nhân viên kho và in ra hoá đơn nhập truyện
-            
-        56. Nhân viên kho nhận hoá đơn nhập truyện và đưa cho nhà cung cấp ký xác nhận
-            
-        57. Nhà cung cấp ký xác nhận nhập truyện thành công
-            
-        58. Nhân viên kho báo với nhà cung cấp nhập truyện từ nhà cung cấp thành công
-            
-            9. ### **Vẽ biểu đồ tuần tự cho kịch bản chuẩn v2**
+        9. 1. Nhà cung cấp nhập một số lượng truyện(cũ hoặc mới) cho cửa hàng
+                
+            2. Nhân viên kho bắt đầu quá trình nhập truyện từ nhà cung cấp bằng việc đăng nhập trên giao diện LoginView
+                
+            3. Lớp LoginView gọi lớp User để xử lý
+                
+            4. Lớp User thực hiện hàm checkLogin()
+                
+            5. Lớp User trả kết quả về cho lớp LoginView
+                
+            6. Lớp LoginView gọi lớp WarehouseStaffView
+                
+            7. Lớp WarehouseStaffView hiển thị cho nhân viên kho
+                
+            8. Nhân viên kho chọn chức năng nhập truyện từ lớp WarehouseStaffView
+                
+            9. Lớp WarehouseStaffView gọi lớp SearchProviderView
+                
+            10. Lớp SearchProviderView hiển thị cho nhân viên kho
+                
+            11. Nhân viên kho hỏi nhà cung cấp thông tin của nhà cung cấp
+                
+            12. Nhà cung cấp cung cấp thông tin cho nhân viên kho
+                
+            13. Nhân viên kho nhập tên nhà cung cấp và nhấn nút tìm kiếm trên giao diện SearchProviderView
+                
+            14. Lớp SearchProviderView gọi lớp Provider
+                
+            15. Lớp Provider thực hiện hàm searchProviderByName()
+                
+            16. Lớp Provider trả kết quả về cho lớp SearchProviderView
+                
+            17. Lớp SearchProviderView hiển thị kết quả cho nhân viên kho
+                
+            18. Nhân viên kho chọn đúng dòng của thông tin nhà cung cấp
+                
+            19. Lớp SearchProviderView gọi lớp SearchBookTitleView
+                
+            20. Lớp SearchBookTitleView hiển thị cho nhân viên kho
+                
+            21. Nhân viên kho hỏi nhà cung cấp thông tin về đầu truyện cần nhập
+                
+            22. Nhà cung cấp trả lời nhân viên kho về thông tin đầu truyện cần nhập
+                
+            23. Nhân viên kho nhập tên đầu truyện và nhấn nút tìm kiếm
+                
+            24. Lớp SearchBookTitleView gọi lớp BookTitle
+                
+            25. Lớp BookTitle thực hiện hàm searchBookTitleByName()
+                
+            26. Lớp BookTitle trả kết quả về cho lớp SearchBookTitleView
+                
+            27. Lớp SearchBookTitleView hiển thị kết quả cho nhân viên kho
+                
+            28. Nhân viên kho chọn dòng có thông tin đầu truyện đúng
+                
+            29. Lớp SearchBookTitleView gọi lớp EnterQuantityView
+                
+            30. Lớp EnterQuantityView hiển thị cho nhân viên kho
+                
+            31. Nhân viên kho hỏi nhà cung cấp số lượng truyện của đầu truyện
+                
+            32. Nhà cung cấp trả lời nhân viên kho số lượng truyện của đầu truyện
+                
+            33. Nhân viên kho nhập số lượng truyện và nhấn vào nút xác nhận
+                
+            34. Lớp EnterQuantityView gọi lớp ImportedBookTitleListView
+                
+            35. Lớp ImportedBookTitleListView hiển thị cho nhân viên kho
+                
+            36. Nhân viên kho đọc lại thông tin các đầu truyện được nhập và yêu cầu nhà cung cấp đối chiếu xác nhận
+                
+            37. Nhà cung cấp xác nhận đúng thông tin
+                
+            38. Nhân viên kho nhấn nút xác nhận
+                
+            39. Lớp ImportedBookTitleListView gọi lớp ConfirmView
+                
+            40. Lớp ConfirmView hiển thị cho nhân viên kho
+                
+            41. Nhân viên kho hỏi nhà cung cấp số tiền giảm giá trong lần nhập này
+                
+            42. Nhà cung cấp trả lời nhân viên kho số tiền giảm giá trong lần nhập này
+                
+            43. Nhân viên kho nhập số tiền giảm giá, chọn phương thức thanh toán và nhấn vào nút In
+                
+            44. Lớp ConfirmView gọi cho lớp ImportBill
+                
+            45. Lớp ImportBill thực hiện hàm confirmImportBookTitle()
+                
+            46. Lớp ImportBill trả kết quả về cho lớp ConfirmView
+                
+            47. Lớp ConfirmView hiển thị thông báo nhập truyện thành công cho nhân viên kho và in ra hoá đơn nhập truyện
+                
+            48. Nhân viên kho nhận hoá đơn nhập truyện và đưa cho nhà cung cấp ký xác nhận
+                
+            49. Nhà cung cấp ký xác nhận nhập truyện thành công
+                
+            50. Nhân viên kho báo với nhà cung cấp nhập truyện từ nhà cung cấp thành công
+                
+        10. 9. ### **Vẽ biểu đồ tuần tự cho kịch bản chuẩn v2**
                 
             
             ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1749458679662/575fdfaf-6949-467e-b0fc-44833deeb6e0.jpeg align="center")
