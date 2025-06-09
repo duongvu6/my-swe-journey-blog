@@ -347,3 +347,20 @@ tags: software-engineering
 8. nhân viên nhấn nút xác nhận
     
     hệ thống hiển thị thông báo xuất thành công + in hóa đơn
+    
+
+* csdl sau khi test
+    
+* tblHoaDonXuat
+    
+
+| id | ngay\_lap | kieu\_thanh\_toan | giam\_gia | user\_id | dai\_ly\_id |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 4/5/2025 | chuyển khoản | 0 | 1 | 1 |
+
+* tblHangXuat
+    
+
+| id | don\_gia | so\_luong | hang\_hoa\_id | hoa\_don\_xuat\_id |
+| --- | --- | --- | --- | --- |
+| 1 | 40,000 | 30 | 1 | 1 |
