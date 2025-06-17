@@ -65,7 +65,7 @@ tags: software-engineering
 
 Biểu đồ lớp thực thể của toàn bộ hệ thống
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1749719895364/8c3b8581-e91c-439d-9981-c834596ad18e.jpeg align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750121060083/ad2bdcae-32a7-4457-b084-08c793e79eba.jpeg align="center")
 
 ### Thiết kế tĩnh: thiết kế giao diện và vẽ biểu đồ lớp MVC chi tiết cho modul
 
@@ -90,6 +90,10 @@ Biểu đồ lớp thực thể của toàn bộ hệ thống
 * thiết kế biểu đồ lớp MVC chi tiết cho module
     
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750123356021/ddd9f3c1-03f6-40a7-87b1-fe77ab2b68be.jpeg align="center")
+
 ### Thiết kế động: vẽ biểu đồ tuần tự mô tả tuần tự hoạt động của modul
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750125341442/d463344a-612e-4d0f-adf6-e8618454b5b5.jpeg align="center")
 
 ### Viết một test case chuẩn cho modul này
