@@ -1,8 +1,8 @@
 ---
-title: "Introduction and motivation"
+title: "Introduction and motivation to Multithread application"
 datePublished: Wed Jun 18 2025 09:08:22 GMT+0000 (Coordinated Universal Time)
 cuid: cmc1qc66r000a02kv51zx9ndd
-slug: introduction-and-motivation
+slug: introduction-and-motivation-to-multithread-application
 tags: multithreading
 
 ---
