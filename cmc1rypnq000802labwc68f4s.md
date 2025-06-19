@@ -3,7 +3,7 @@ title: "Operating system fundamentals"
 datePublished: Wed Jun 18 2025 09:53:53 GMT+0000 (Coordinated Universal Time)
 cuid: cmc1rypnq000802labwc68f4s
 slug: operating-system-fundamentals
-tags: operating-system
+tags: operating-system, swejourneynewbie-java-multithreading1
 
 ---
 
